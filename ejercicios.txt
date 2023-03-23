@@ -1,0 +1,30 @@
+EJERCICIOS HOJA 4
+TEMA: USO DE ARRAYS
+OBJETIVO: FAMILIARIZACIÓN CON LA CREACION DE ARRAYS CON 
+NUMPY Y SUS MÉTODOS ASOCIADOS
+EJERCICIOS 4A 
+INSTALACION DE NUMPY: 
+1. Instala numpy dentro de tu environment de trabajo usando pip o conda. 
+2. Comprueba que numpy ha sido instalado correctamente y la versión instalada 
+(puedes usar conda search package_name --info)
+ARRAYS 1D PARTE 1: 
+1. Crea un array_1 lleno ceros con una longitud de 8 elementos. 
+2. Haz que todos los elementos de este array sean igual a 2 
+3. Crea un array_2 que contenga todos los números pares del 1 al 10.
+4. Suma todos los elementos del array_2 usando un bucle y después usando un método 
+de numpy. Compara los resultados
+5. Revierte array_2 y guárdalo en una variable independiente. 
+6. Encuentra los elementos comunes entre array_1 y array_2 y entre array_2 y 
+array_2_revertido 
+ (Pista: Investiga el uso de intersect1d() de numpy)
+7. Crea un arrays lleno de 1s con una longitud dada por el usuario
+ARRAYS 1D PARTE 2: 
+1. Crea un array con 15 números enteros aleatorios entre 1 y 100
+2. Multiplica todos los elementos del array usando un bucle y después usando un 
+método de numpy. Compara los resultados
+3. Crea otro array con 10 números decimales aleatorios entre 0 y 1
+4. Suma los elementos de ambos arrays elementos por elemento. Resuélvelo usando un 
+operador y después con una función de numpy
+ (Pista: busca en google que función de numpy hace esto)
+5. Ahora réstalos. Resuélvelo usando un operador y después con una función de numpy
+(Pista: busca en google que función de numpy hace esto)
